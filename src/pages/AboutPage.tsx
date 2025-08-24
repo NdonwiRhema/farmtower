@@ -121,7 +121,7 @@ const AboutPage: React.FC = () => {
         </div>
         
         {/* Team */}
-        <div className="bg-white rounded-lg shadow-md overflow-hidden mb-12">
+        {/* <div className="bg-white rounded-lg shadow-md overflow-hidden mb-12">
           <div className="p-6 sm:p-8 md:p-12">
             <h2 className="text-2xl font-bold mb-8 text-center">Our Leadership Team</h2>
             
@@ -172,7 +172,7 @@ const AboutPage: React.FC = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         
         {/* CTA */}
         <div className="bg-primary-600 rounded-lg shadow-md overflow-hidden text-white">
