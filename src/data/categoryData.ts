@@ -13,21 +13,21 @@ export const categoryData: CategoryType[] = [
     name: 'Irrigation Systems',
     slug: 'irrigation',
     description: 'Modern irrigation solutions for efficient water management',
-    image: 'https://images.pexels.com/photos/4825713/pexels-photo-4825713.jpeg'
+    image: 'https://images.ctfassets.net/5kq8dse7hipf/3RYKWj3uormym5ni7KH53L/7b85949f7236a490af2f0111f661bee9/irrigation-system-cost-per-zone.jpg'
   },
   {
     id: 'cat-3',
     name: 'Seeds & Fertilizers',
     slug: 'seeds',
     description: 'High-quality seeds and fertilizers for optimal crop yield',
-    image: 'https://images.pexels.com/photos/7728082/pexels-photo-7728082.jpeg'
+    image: 'https://radhakrishnaagriculture.in/cdn/shop/files/dap1kg.jpg?v=1711178446'
   },
   {
     id: 'cat-4',
     name: 'Hand Tools',
     slug: 'tools',
     description: 'Essential hand tools for everyday farming tasks',
-    image: 'https://images.pexels.com/photos/6152391/pexels-photo-6152391.jpeg'
+    image: 'https://newagro.net/wp-content/uploads/2020/08/handtools.jpg'
   },
   {
     id: 'cat-5',

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 import Logo from '../ui/Logo';
+import GloryAgency from '../../assets/logo.jpg'
 
 const Footer: React.FC = () => {
   return (
@@ -103,6 +104,15 @@ const Footer: React.FC = () => {
                 <span className="text-gray-300">info@farmtower.com</span>
               </li>
             </ul>
+             {/* Powered by */}
+          <div>
+            <div className='mt-6'></div>
+             <h4 className="text-lg font-semibold mb-4">Powered By</h4>
+            <div className="mb-4 w-24 h-24 bg-slate-200 align-middle justify-center rounded-lg">
+              <img alt='glory-agency logo' className='scale-100' src={GloryAgency} style={{borderRadius:100}} width={100} height={100}/>
+            </div>
+                       
+          </div>
           </div>
         </div>
 
