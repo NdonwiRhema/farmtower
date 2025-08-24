@@ -125,14 +125,14 @@ const ProductDetailPage: React.FC = () => {
             {/* Product info */}
             <div className="p-6 border-t md:border-t-0 md:border-l border-gray-200">
               <h1 className="text-2xl lg:text-3xl font-bold mb-2">{product.name}</h1>
-              
-              {product.price ? (
+               <p className="text-lg font-medium text-gray-700 mb-4">Price on request</p>
+              {/* {product.price ? (
                 <p className="text-2xl font-bold text-primary-600 mb-4">
                   ${product.price.toLocaleString()}
                 </p>
               ) : (
                 <p className="text-lg font-medium text-gray-700 mb-4">Price on request</p>
-              )}
+              )} */}
               
               {/* Brand */}
               {brand && (

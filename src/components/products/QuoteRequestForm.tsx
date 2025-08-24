@@ -36,7 +36,7 @@ const QuoteRequestForm: React.FC<QuoteRequestFormProps> = ({ product }) => {
     );
     
     // Open WhatsApp with pre-filled message (in production, this would use your business number)
-    window.open(`https://wa.me/1234567890?text=${whatsappMessage}`, '_blank');
+    window.open(`https://wa.me/918968437757?text=${whatsappMessage}`, '_blank');
     
     // Show success message
     setSubmitted(true);
