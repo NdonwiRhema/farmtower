@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
             <p className="text-gray-300 mb-4">
               Your trusted partner for agricultural inputs and implements, serving farmers across Africa and beyond.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white transition-colors">
                 <Facebook size={20} />
               </a>
@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
               <a href="#" className="text-gray-300 hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
@@ -97,7 +97,8 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex">
                 <Phone size={20} className="mr-3 flex-shrink-0 text-primary-400" />
-                <span className="text-gray-300">+91 814 633 6058 </span>
+                {/* <span className="text-gray-300">+91 814 633 6058 </span> */}
+                <span className="text-gray-300">+91 896 843 7757 </span>
               </li>
               <li className="flex">
                 <Mail size={20} className="mr-3 flex-shrink-0 text-primary-400" />
