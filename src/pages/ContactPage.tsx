@@ -73,7 +73,7 @@ const ContactPage: React.FC = () => {
                   <Phone size={24} className="mr-4 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
-                    <p>+91 814 633 6058 </p>
+                    {/* <p>+91 814 633 6058 </p> */}
                     <p>+91 896 843 7757 </p>
                   </div>
                 </div>
@@ -91,7 +91,7 @@ const ContactPage: React.FC = () => {
                   <MessageSquare size={24} className="mr-4 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold mb-1">WhatsApp</h3>
-                    <p>+91 814 633 6058</p>
+                    {/* <p>+91 814 633 6058</p> */}
                     <p>+91 896 843 7757 </p>
                   </div>
                 </div>

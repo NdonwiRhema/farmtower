@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from '../components/home/Hero';
 import FeaturedCategories from '../components/home/FeaturedCategories';
 import FeaturedProducts from '../components/home/FeaturedProducts';
-import TrustedBrands from '../components/home/TrustedBrands';
+// import TrustedBrands from '../components/home/TrustedBrands';
 import WhyChooseUs from '../components/home/WhyChooseUs';
 
 const HomePage: React.FC = () => {
@@ -17,7 +17,7 @@ const HomePage: React.FC = () => {
       <FeaturedCategories />
       <FeaturedProducts />
       <WhyChooseUs />
-      <TrustedBrands />
+      {/* <TrustedBrands /> */}
     </div>
   );
 };

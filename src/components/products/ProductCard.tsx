@@ -34,7 +34,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <p className="text-gray-600 text-sm mb-4 flex-grow">{product.description.substring(0, 100)}...</p>
         <div className="mt-auto flex items-center justify-between">
           <span className="font-semibold text-gray-900">
-            {product.price ? `$${product.price.toLocaleString()}` : 'Price on request'}
+            {/* {product.price ? `$${product.price.toLocaleString()}` : 'Price on request'} */}
+            {'Price on request'}
           </span>
           <Link 
             to={`/product/${product.id}`} 
