@@ -32,7 +32,7 @@ const QuoteRequestForm: React.FC<QuoteRequestFormProps> = ({ product }) => {
     // For this demo, we'll simulate a WhatsApp link
     
     const whatsappMessage = encodeURIComponent(
-      `Hi, I'm interested in: ${product.name}\n\nQuantity: ${formData.quantity}\n\nAdditional message: ${formData.message}`
+      `FARMTOWER QUOTE REQUEST\n\nHi, I'm interested in: ${product.name}\n\nQuantity: ${formData.quantity}\n\nAdditional message: ${formData.message}`
     );
     
     // Open WhatsApp with pre-filled message (in production, this would use your business number)
